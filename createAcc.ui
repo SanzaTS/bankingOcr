@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>970</width>
+    <height>872</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(121, 121, 90);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>431</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 103);
+font: 14pt &quot;MV Boli&quot;;
+font: 26pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Customer Information</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(167, 0, 0);
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Id Number</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>80</y>
+     <width>481</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(32, 121, 0);
+background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSignUp">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>440</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 127);
+color: rgb(255, 0, 0);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="customer">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>971</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(125, 0, 0);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>id </string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Second Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Signed</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>last Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Street Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>city</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>code</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>email</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>phone</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="account">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>430</y>
+     <width>461</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(141, 0, 0);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Account Number</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Account Details</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>id Number</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="homeBtn">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>490</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 127);
+color: rgb(255, 0, 0);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnId">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>80</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 127);
+color: rgb(255, 0, 0);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Read ID</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
